@@ -1,0 +1,16 @@
+﻿            //string textTTS = "<speak><prosody pitch=\"-12st\">na</prosody><prosody pitch=\"-8st\">na</prosody><prosody pitch=\"-4st\">na</prosody><prosody>na</prosody><prosody pitch=\"+4st\">na</prosody><prosody pitch=\"+8st\">na</prosody><prosody pitch=\"+12st\">na</prosody><prosody pitch=\"+16st\">na</prosody></speak>";
+            //string textTTS = "<speak><prosody pitch=\"-12st\">na</prosody>" +
+            //    "<prosody pitch=\"-8st\">na</prosody>" +
+            //    "<prosody pitch=\"-4st\">na</prosody>" +
+            //    "<prosody>na</prosody>" +
+            //    "<prosody pitch=\"+4st\">na</prosody>" +
+            //    "<prosody pitch=\"+8st\">na</prosody>" +
+            //    "<prosody pitch=\"+12st\">na</prosody>" +
+            //    "<prosody pitch=\"+16st\">na</prosody>" +
+            //    "<prosody pitch=\"+12st\">na</prosody>" +
+            //    "<prosody pitch=\"+8st\">na</prosody>" +
+            //    "<prosody pitch=\"+4st\">na</prosody>" +
+            //    "<prosody>na</prosody>" +
+            //    "<prosody pitch=\"-4st\">na</prosody>" +
+            //    "<prosody pitch=\"-8st\">na</prosody>" +
+            //    "</speak>";

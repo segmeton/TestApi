@@ -45,14 +45,18 @@ namespace TestAPI
         public void GenerateAudio(string textInput, string outputFile = "output.mp3") {
             var input = new SynthesisInput
             {
-                Text = textInput
+                //Text = textInput
+                Ssml = textInput
             };
 
+            // Std : M:ABDIJ; F:CEFGH
+            // WN : M:ABDIJ; F:CEFGH
             // Build the voice request.
             var voiceSelection = new VoiceSelectionParams
             {
                 LanguageCode = "en-US",
-                Name = "en-US-Wavenet-C",
+                Name = "en-US-Wavenet-F",
+                //Name = "en-US-Standard-C",
                 SsmlGender = SsmlVoiceGender.Female
             };
 
@@ -67,7 +71,8 @@ namespace TestAPI
 
             // Write the response to the output file.
             //string outputFile = "output-voting.mp3";
-            string outputPath = $"{baseDir}/{outputFile}";
+            
+            string outputPath = $"{baseDir}/output/{outputFile}";
             using (var output = File.Create(outputPath))
             {
                 response.AudioContent.WriteTo(output);
